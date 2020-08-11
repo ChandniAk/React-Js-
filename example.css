@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background-image: url("https://external-preview.redd.it/mNvcfnwvPPPopaGh_FXD03xGfT3xN3yzsONrBK43KDc.jpg?auto=webp&s=0ff98ccc95903fe5c1b8549392a09593c70d9711");
+    background-size: cover;
+    height: 40vw;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36pt;
+    color: white;
+}
+
+main {
+    padding: 10px 100px 10px 100px;
+
+}
+
+#profile-picture {
+    border-radius: 50%;
+    width: 150px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+ 
